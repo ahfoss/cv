@@ -1,14 +1,13 @@
+% This file uses the resume document class (res.cls)
 
 \hyphenation{pdfTeX Mathematica}
 
-\documentclass{article}
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\documentclass{article} 
 
 % capitalize section titles; center
 \makeatletter
 \renewcommand\section{\@startsection {section}{1}{\z@}%
-                                   {-2.5ex \@plus -1ex \@minus -.2ex}%beforeskip
+                                   {-1.5ex \@plus -1ex \@minus -.2ex}%beforeskip
                                    {1.0ex \@plus.2ex}%afterskip
                                    {\Large\scshape\centerline}*}
 \makeatother
@@ -41,19 +40,17 @@ Alexander H. Foss\\
  
 \hfill alexanderhfoss@gmail.com
  
-\section{Education} 
+ 
+\section{Education}
  {\bf University at Buffalo \hfill Aug 2012 -- May 2017 (anticipated)}\\
- Ph.D Candidate, Biostatistics \hfill  GPA 3.9/4.0\\
+ Ph.D Candidate, Biostatistics  \hfill GPA 3.9/4.0\\
  {\bf University of the South \hfill Aug 2010 -- May 2012}\\
  Post-baccalaureate student, Mathematics \hfill GPA 4.0/4.0\\
- {\bf University of California, Berkeley \hfill Aug 2009 -- Mar 2010}\\
- Ph.D Candidate, Psychology \hfill GPA 4.0/4.0\\
  {\bf Indiana University, Bloomington    \hfill Aug 2003 -- Aug 2007}\\
  Bachelor of Science in Music and an Outside Field \hfill GPA 3.9/4.0\\
- Graduated with High Distinction  \\
+ Graduated with High Distinction\\
  Major: Piano Performance\\ 
  Outside Field: Psychology, with Departmental Honors
-
 
 
 \section{Experience}
@@ -63,14 +60,12 @@ Alexander H. Foss\\
  Principal Investigator: Dr. Marianthi Markatou 
  \begin{itemize} \itemsep -2pt
   \item Worked with collaborators at University at Buffalo and IBM Watson Labs to develop algorithms for clustering mixed continuous and categorical data subject to measurement error
-  \item Coded, implemented, and analyzed various Monte Carlo simulation studies on clusters of 4--200 cores, using MPI for parallelization
  \end{itemize}
 
  {\bf University at Buffalo, Dept of Biostatistics}, Buffalo, NY\\
  {\it Teaching Assistant} \hfill {\bf Fall 2012, Spring 2013}
  \begin{itemize} \itemsep -2pt
   \item TA for graduate and undergraduate statistics courses
-  \item Led weekly recitation sections, held weekly office hours, graded homework, assisted in grading exams
   \item Received excellent student evaluations: 94\% agreement with the statement ``Presents material well,'' 80\% respondents categorizing overall teaching effectiveness as ``One of the best'' or ``Above Average'', and comments such as ``One of the best TAs I have had so far.''
  \end{itemize}
  
@@ -79,40 +74,15 @@ Alexander H. Foss\\
  {\it Research Assistant} \hfill {\bf Summers 2010, 2011, 2012} \\
  Principal Investigator: Dr. Randolph Carter
  \begin{itemize} \itemsep -2pt
-  \item Implemented a Monte Carlo simulation in R evaluating published 
-        methods of calculating the lifetime risk at birth of Krabbe disease
-        (published 2013)
-  \item Assisted in the writing of grant proposals to the NIDDK and HRSA,
-        as well as an ARRA grant proposal.
- \end{itemize}
-
- {\bf New York University, Dept of Applied Psychology}, New York, NY\\
- Principal Investigator: Dr. Arnold Grossman\\
- {\it Data Analyst (part-time)} \hfill {\bf Mar 2011 -- June 2012}
- \begin{itemize} \itemsep -2pt
-  \item Analyzed associations between domestic abuse, neglect and
-        other variables in elderly LGBT adults, as well as associations
-        between homelessness and traumatic life events in LGBT youth
-  \item Co-author on a paper investigating the relationship between
-        pubertal timing and sexual identity development (published 2014)
- \end{itemize}
-
- {\bf University of California, Dept of Psychology}, Berkeley, CA\\
- {\bf Affective Cognitive Neuroscience Lab}\\
- Principal Investigator: Dr. Sonia Bishop\\
- {\it Graduate Student Researcher} \hfill {\bf Aug 2009 -- Apr 2010}
- \begin{itemize} \itemsep -2pt
-  \item Assisted in the design and analysis of a functional MRI study 
-        investigating neural processing of ambiguous and pure emotions 
-  \item Assisted in the writing of an NIMH BRAINS research grant concerning
-        anxiety reduction biofeedback training using real-time fMRI
+  \item Implemented and published a Monte Carlo simulation in R evaluating 
+        methods of calculating the lifetime risk at birth of inborn errors of metabolism
  \end{itemize}
 
  {\bf Yale University School of Medicine}, New Haven, CT\\
  {\bf Children's Hospital of Philadelphia}, Philadelphia, PA\\
  {\bf Developmental Neuroimaging Lab}\\
  Principal Investigator: Dr. Robert Schultz\\
- {\it Research Assistant (full time)} \hfill {\bf Oct 2007 -- Jun 2009}
+ {\it Research Assistant (full time)} \hfill {\bf Jul 2007 -- Jun 2009}
  \begin{itemize} \itemsep -2pt
   \item Assisted in the design and analysis of fMRI studies of
         visual perception and social cognition
@@ -125,7 +95,7 @@ Alexander H. Foss\\
  \begin{itemize} \itemsep -2pt
   \item Designed, analyzed, and published results of an fMRI experiment 
         investigating the neural correlates of auditory perception of tone 
-	combinations; analysis conducted using BrainVoyager QX (published 2007)
+        combinations; analysis conducted using BrainVoyager QX
  \end{itemize}
  
 
@@ -139,59 +109,58 @@ Alexander H. Foss\\
 \hspace{\listInd} \fullcite{foss07}
 
 
+
+
+
 \section{Invited Talks}
-\hspace{\listInd} \fullcite{isbis14}
+\fullcite{isbis14}
 
 
-\section{Posters}
+%\section{Posters}
+%
+%\hspace{\listInd} \fullcite{jsm13}
+%
+%\hspace{\listInd} \fullcite{hbm06}
 
-\hspace{\listInd} \fullcite{jsm13}
-
-\hspace{\listInd} \fullcite{vss10}
-
-\hspace{\listInd} \fullcite{imfar10}
-
-\hspace{\listInd} \fullcite{hbm06}
-
-
-
-
-\section{Academic Honors} 
+\section{Academic  Honors} 
 \begin{itemize} \itemsep -2pt
- \item Two Honorable Mentions, NSF GRF Program \hfill Spring 2012 and 2013
- \item Perry Poster Award, University at Buffalo (\$100) \hfill April 19, 2013
+ \item Honorable Mention, NSF GRF Program \hfill Spring 2013
  \item Presidential Fellowship, University at Buffalo (\$23,000) \hfill Fall 2012
- \item Diebold Fellowship, UC Berkeley Psychology Dept (\$14,600) \hfill Fall 2009
  \item Excellence in Research Award, IU Psychology Dept \hfill April 19, 2007
- \item Honors Thesis Award, IU Honors College \hfill Spring 2007
  \item Capstone Grant, Howard Hughes Medical Institute (\$4,250) \hfill Spring 2006
  \item Metz Scholarship, IU Honors College (\$56,000) \hfill Fall 2003
  \item Merit scholarship, IU School of Music (\$40,000) \hfill Fall 2003
 \end{itemize}
- 
 
-% Tabulate computer skills; p{3in} defines paragraph 3 inches wide
-\section{Computer Skills}
 
-\textbf{Languages:} R, Bash, C, Java, Mathematica, MATLAB, 
-                             Processing, Python, Visual Basic, HTML,
-                             CSS
+\section{Programming Skills}
+\textbf{Fluent} (\textit{Used daily; I can write substantial programs without consulting references}): \\
+  R, \LaTeX{} markup language, dynamic report generation with knitr (PDF, HTML, or MS word output) 
 
-\textbf{Software:} SPSS, SAS, pdf\TeX{}, 
-                         Sweave, VIM, 
-                         OpenOffice/LibreOffice, MS Office Suite
+\textbf{Formerly Fluent} (\textit{I achieved fluency at some point within the last 10 years}): \\
+   Java, MATLAB, Python
 
-\textbf{Operating Systems:} Windows (98/XP/Vista/7/8),
-                                     Macintosh (OS9, OSX),
-                                     Linux (Red Hat, Ubuntu, CentOS)
+\textbf{Familiar} (\textit{I can use at a high level while consulting references}): \\
+  C, HTML/CSS, Mathematica, Processing, SAS, SQL, Visual Basic
+
+\section{Other Computing Skills}
+  \textbf{Software}: SPSS, VIM, MS Office Suite
+
+  \textbf{Operating systems}: Linux (Red Hat, Ubuntu, CentOS) and Windows (98/XP/Vista/7/8)
+
+  \textbf{Shell programming} (BASH)
+
+  \textbf{Batch scheduling systems}: SLURM, SGE
+
 
 
 \section{Selected Coursework}
-  \textbf{University of Indiana, Bloomington}: 
-  \textbf{University at Buffalo, Master's Level}: Regression Analysis, Categorical Data Analysis, Multivariate Data Analysis, Statistics for Bioinformatics, Statistical Comparisons and Associations \\
- \textbf{University at Buffalo, PhD Level}: Topics in Advanced Modeling, Advanced Categorical Data Analysis, Advanced Survival Analysis, Theory of Linear Models, Limit Theory, Theory of Statistical Inference \\
-  \textbf{University of the South}: Probability and Statistics I/II, Multidimensional Calculus, Linear Algebra, Discrete Mathematical Structures, Genomics, Numerical Analysis \\
-
+  \textbf{University at Buffalo, Master's Level}: Regression Analysis, Categorical Data Analysis, Multivariate Data Analysis, Statistics for Bioinformatics \\
+ \textbf{University at Buffalo, PhD Level}: Topics in Advanced Modeling, Advanced Categorical Data Analysis, Advanced Survival Analysis, Theory of Linear Models, Limit Theory \\
+  \textbf{University of the South}: Probability and Statistics I/II,
+  Multidimensional Calculus, Linear Algebra, 
+  Discrete Mathematical Structures, Genomics, 
+  Numerical Analysis \\
 
 
 \section{Other Proficiencies}
@@ -199,47 +168,6 @@ Alexander H. Foss\\
  \item Fluent in Spanish
  \item Classically-trained pianist, freelance organist
 \end{itemize}
-
-
-\section{GRE Scores}
- {\bf General GRE scores}: 790 Quantitative, 730 Verbal, 5.5 Analytical Writing\\
- {\bf Psychology Subject GRE score}: 830
-
-
-\section{Service}
-{\bf University at Buffalo School of Public Health and Health Professions (SPHHP), Academic Affairs Committee} \\
-{\it Committee Member} \hfill {\bf Sep 2014 -- Present}
-\begin{itemize} \itemsep -2pt
-  \item Worked with the Senior Associate Dean for Academic and Student Affairs to establish standards for undergraduate, graduate, and post graduate study in the SPHHP
-  \item Issues addressed included the establishment of new programs, new course proposals, academic policies and procedures, admissions, and clinical education policies
-\end{itemize}
-
-{\bf New York State Center of Excellence in Bioinformatics and Life Sciences} \\
- {\it Volunteer Speaker} \hfill {\bf July 24, 2012}
- \begin{itemize} \itemsep -2pt
-  \item Gave a presentation on face recognition, brain imaging, and autism to a group of exchange students
- \end{itemize}
-
-{\bf The Franklin Institute Museum of Science}, Philadelphia, PA\\
-{\it Volunteer} \hfill {\bf Nov 2007 -- Oct 2008}
- \begin{itemize} \itemsep -2pt
-  \item Conducted science demonstrations including paper-making, the ``brain bar'' neuroscience exhibit, and the Baldwin 60,000 steam engine simulation
-  \item Interacted individually with children ages 4--16 and their parents
- \end{itemize}
-
-{\bf Wonderlab Museum of Science}, Bloomington, IN\\
-{\it Volunteer} \hfill {\bf May 2006 -- Jul 2007}
- \begin{itemize} \itemsep -2pt
-  \item Conducted ``science-on-the-spot'' demonstrations
-  \item Interacted individually with children ages 4--12 and their parents
- \end{itemize}
-
-{\bf International Service Learning}, Kansas City, MO/San Jose, Costa Rica\\
-{\it Volunteer} \hfill {\bf Mar 10 -- 18, 2007}
- \begin{itemize} \itemsep -2pt
-  \item Helped set up clinics in Costa Rica in the towns of Tib\'{a}s and Puntarenas
-  \item Conducted community triage, took patient histories, gave eye examinations, and prescribed reading glasses
- \end{itemize}
 
 
 \end{document} 
