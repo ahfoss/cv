@@ -1,3 +1,7 @@
 cv
 ==
-run pdflatex, biber, pdflatex, pdflatex on .tex file
+
+    > pdflatex FOSS_resume.tex
+    > biber FOSS_resume
+    > pdflatex FOSS_resume.tex
+    > pdflatex FOSS_resume.tex
