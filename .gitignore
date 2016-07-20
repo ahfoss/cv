@@ -1,5 +1,5 @@
 
-full-cv/FOSS_resume.*
-!full-cv/FOSS_resume.tex
+full-cv/FOSS_cv.*
+!full-cv/FOSS_cv.tex
 tech-resume/FOSS_resume.*
 !tech-resume/FOSS_resume.tex
