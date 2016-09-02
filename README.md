@@ -1,7 +1,9 @@
 cv
 ==
 
-    > pdflatex FOSS_resume.tex
-    > biber FOSS_resume
-    > pdflatex FOSS_resume.tex
-    > pdflatex FOSS_resume.tex
+    > cd full-cv
+    > pdflatex FOSS_cv.tex
+    > biber FOSS_cv
+    > pdflatex FOSS_cv.tex
+    > pdflatex FOSS_cv.tex
+    > evince FOSS_cv.pdf &
