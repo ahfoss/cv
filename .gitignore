@@ -1,5 +1,7 @@
 
 full-cv/FOSS_cv.*
 !full-cv/FOSS_cv.tex
+biomed-cv/FOSS_cv.*
+!biomed-cv/FOSS_cv.tex
 tech-resume/FOSS_resume.*
 !tech-resume/FOSS_resume.tex
