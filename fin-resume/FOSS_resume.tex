@@ -1,0 +1,188 @@
+
+\hyphenation{pdfTeX Mathematica}
+
+\documentclass{article}
+
+% capitalize section titles; center
+\makeatletter
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-1.5ex \@plus -1ex \@minus -.2ex}%beforeskip
+                                   {1.0ex \@plus.2ex}%afterskip
+                                   {\Large\scshape\centerline}*}
+\makeatother
+
+\setlength{\parindent}{0cm}
+
+\newcommand\listInd{0.4cm}
+
+\usepackage[inner=1.0in,outer=1.0in,bottom=2.5cm,top=2.5cm]{geometry}
+
+\usepackage[backend=biber,style=authoryear,maxbibnames=99,maxcitenames=99]{biblatex}
+\addbibresource{../biblio/resumeBiblio.bib}
+
+
+%\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+
+\thispagestyle{empty}
+\pagestyle{empty}  
+ 
+\begin{centering}
+\Large
+Alexander H. Foss
+\vspace{0.05in}
+\normalsize
+
+\hspace*{\fill}
+%first item
+alexanderhfoss@gmail.com
+\hfill
+\textbullet
+\hfill
+% second item 
+(931) 636-8109 
+\hfill
+\textbullet
+\hfill
+% third item
+linkedin.com/in/alex-foss-30939383
+%\hfill
+%\textbullet
+%\hfill
+\hspace*{\fill}
+
+\vspace{-0.08in}
+
+\end{centering}
+
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+
+\vspace{-0.05in}
+
+ 
+\section{Summary}
+I am an inquisitive, effective, and creative statistician and data scientist with extensive skills in three broad areas.
+\textbf{Statistics and machine learning}, including experimental design, model building, linear/nonlinear regression, prediction, hypothesis testing, classification, clustering, and data visualization.
+\textbf{Computing} with large complex data sets, including experience with statistical computing, reproducible analysis, relational database management, and high performance computing techniques such as parallel programming, map-reduce, and cluster computing.
+\textbf{Business/scientific communication}, including the ability to quickly acquire domain expertise, contextualize business/scientific problems, translate results into actionable recommendations, and communicate effectively to stakeholders.
+
+\section{Education}
+\vspace{-0.08in}
+ {\bf University at Buffalo \hfill Aug 2012 -- Dec 2016 (anticipated)}\\
+ Ph.D, Biostatistics \hfill  GPA 3.9/4.0 \\
+ Ph.D Thesis advisor: Prof. Marianthi Markatou \\
+ M.A. in Biostatistics, conferral date June 15, 2015 \\
+ {\bf University of the South \hfill Aug 2010 -- May 2012} \\
+ Post-baccalaureate student, Mathematics \hfill GPA 4.0/4.0 \\
+ {\bf Indiana University, Bloomington    \hfill Aug 2003 -- Aug 2007} \\
+ Bachelor of Science in Music and an Outside Field \hfill GPA 3.9/4.0 \\
+ Graduated with High Distinction  \\
+ Major: Piano Performance \\ 
+ Outside Field: Psychology, with Departmental Honors
+
+
+\section{Experience}
+
+ {\bf University at Buffalo, Dept of Biostatistics}, Buffalo, NY\\
+ {\it Research Assistant} \hfill {\bf June 2013 -- Present} \\
+ Principal Investigator: Dr. Marianthi Markatou 
+ \begin{itemize} \itemsep -2pt
+  \item Developed a novel technique for clustering mixed-type data that outperforms competing methods (Foss et al. 2016); implemented in R/Rcpp and Hadoop
+  \item Worked with collaborators at the University at Buffalo and IBM Watson Labs to develop algorithms for clustering mixed continuous and categorical data subject to measurement error
+  \item Designed, implemented, and analyzed Monte Carlo simulation studies on clusters of up to 200 cores, using R and MPI for parallelization
+ \end{itemize}
+
+ {\bf Google}, Mountain View, CA\\
+ {\it Tech Intern} \hfill {\bf Summer 2015} \\
+ Host: Dr. Ben Davison
+ \begin{itemize} \itemsep -2pt
+  \item Used theoretical techniques and user data to develop optimal statistical procedures for analyzing user satisfaction
+  \item Contributed high-performance algorithms for the analysis and visualization of satisfaction data to internal analysis tools
+  \item Gave a talk introducing and justifying these testing procedures to 20+ Google user experience researchers. A 10-year veteran said my talk was one of the best intern presentations he's ever seen.
+ \end{itemize}
+
+ {\bf University at Buffalo, Dept of Biostatistics}, Buffalo, NY\\
+ {\it Teaching Assistant} \hfill {\bf Fall 2012, Spring 2013}
+ \begin{itemize} \itemsep -2pt
+  \item TA for graduate and undergraduate statistics courses
+  \item Received excellent student evaluations: 94\% agreement with the statement ``Presents material well,'' 80\% respondents categorizing overall teaching effectiveness as ``One of the best'' or ``Above Average'', and comments such as ``One of the best TAs I have had so far.''
+ \end{itemize}
+ 
+
+ {\bf Yale University School of Medicine}, New Haven, CT\\
+ {\bf Children's Hospital of Philadelphia}, Philadelphia, PA\\
+ {\bf Developmental Neuroimaging Lab}\\
+ Principal Investigator: Dr. Robert Schultz\\
+ {\it Research Assistant (full time)} \hfill {\bf Jul 2007 -- Jun 2009}
+ \begin{itemize} \itemsep -2pt
+  \item Assisted in the design and analysis of fMRI studies of
+        visual perception and social cognition
+ \end{itemize}
+
+ 
+
+\section{Selected Publications}
+\hspace{\listInd} \fullcite{foss16b}. Software available at \url{https://github.com/ahfoss/kamila} and on CRAN.
+
+\hspace{\listInd} \fullcite{foss16a}
+
+\hspace{\listInd} \fullcite{foss13}
+
+\hspace{\listInd} \fullcite{foss07}
+
+
+\vspace{-0.08in}
+
+\section{Presentations}
+\hspace{\listInd} \fullcite{jsm15}
+
+\hspace{\listInd} \fullcite{google15}
+
+\hspace{\listInd} \fullcite{isbis14} (Invited Presentation)
+
+
+\section{Academic  Honors} 
+\begin{itemize} \itemsep -2pt
+ \item \textbf{Two Honorable Mentions, NSF GRF Program} \hfill Spring 2012 and 2013
+ \item Perry Poster Award, University at Buffalo \hfill April 19, 2013
+ \item Presidential Fellowship, University at Buffalo (\$23,000) \hfill Fall 2012
+ \item Excellence in Research Award, IU Psychology Dept \hfill April 19, 2007
+ \item Capstone Grant, Howard Hughes Medical Institute (\$4,250) \hfill Spring 2006
+ \item Metz Scholarship, IU Honors College (\$56,000) \hfill Fall 2003
+ \item Merit Scholarship, IU School of Music (\$40,000) \hfill Fall 2003
+\end{itemize}
+
+
+\section{Programming Skills}
+\textbf{Fluent} (\textit{Used daily; I can write substantial programs without consulting references}): \\
+  R, \LaTeX{} markup language, dynamic report generation with knitr (PDF, HTML, or MS word output) 
+
+\textbf{Formerly Fluent} (\textit{I achieved fluency at some point within the last 10 years}): \\
+   Java, MATLAB, Python
+
+\textbf{Familiar} (\textit{I can use at a high level while consulting references}): \\
+  C, Go, Hadoop, HTML/CSS, Mathematica, Processing, SAS, SQL, Visual Basic
+
+%\section{Other Computing Skills}
+%  \textbf{Software}: SPSS, VIM, MS Office Suite
+%
+%  \textbf{Operating systems}: Linux (Red Hat, Ubuntu, CentOS) and Windows (98/XP/Vista/7/8)
+%
+%  \textbf{Shell programming} (BASH)
+%
+%  \textbf{Batch scheduling systems}: SLURM, SGE
+%
+
+
+\section{Selected Coursework}
+  \textbf{University at Buffalo, Master's Level}: Regression Analysis, Categorical Data Analysis, Multivariate Data Analysis, Statistics for Bioinformatics \\
+ \textbf{University at Buffalo, PhD Level}: Advanced Modeling, Advanced Categorical Data Analysis, Advanced Survival Analysis, Theory of Linear Models, Limit Theory, Design and Analysis of Observational Studies \\
+
+
+\end{document} 
+
+
